@@ -47,7 +47,10 @@ def naming_system
     sub_category: nil
   }
 }
-hash
+hash[:sub_category][:sub_category][:sub_category][:label] = "Order"
+hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:label] = "Genus"
+hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:label] = "Species"
+hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = nil
 
   # Remember:
   #  Kingdom
