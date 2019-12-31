@@ -42,7 +42,7 @@ def naming_system
     sub_category: { label: "Species",
     sub_category: { nil } } } } } } }
   }
-hoh
+  return naming_system
   # Remember:
   #  Kingdom
   #  Phylum
