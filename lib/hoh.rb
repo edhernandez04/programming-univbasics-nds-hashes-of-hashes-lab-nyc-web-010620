@@ -33,7 +33,7 @@ PORTION_4 = {
 
 def naming_system
   HoH = {
-    PORTION_1 = {
+    Kingdom = {
       label: "Kingdom",
       sub_category: {
         label: "Phylum",
@@ -43,18 +43,18 @@ def naming_system
       }
     }
 
-    PORTION_2 = {
+    Order = {
       label: "Order"
     }
 
-    PORTION_3 = {
+    Family = {
       label: "Family",
       sub_category: {
         label: "Genus",
       }
     }
 
-    PORTION_4 = {
+    Species = {
       label: "Species",
       sub_category: nil
     }
