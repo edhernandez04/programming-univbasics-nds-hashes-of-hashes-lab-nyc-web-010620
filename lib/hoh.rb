@@ -32,7 +32,7 @@
 
 
 def naming_system
-  hash = {
+  HoH = {
     label: "Kingdom", sub_category: {
       label: "Phylum", sub_category: {
         label: "Class", sub_category: {
