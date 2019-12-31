@@ -51,20 +51,6 @@ def naming_system
         }
       }
     }
-
-
-
-  }
-
-    Species = {
-    label: "Species",
-    sub_category: nil
-  }
-}
-hash[:sub_category][:sub_category][:sub_category][:label] = "Order"
-hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:label] = "Genus"
-hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:label] = "Species"
-hash[:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category][:sub_category] = nil
 hash
   # Remember:
   #  Kingdom
@@ -76,5 +62,4 @@ hash
   #  Species
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
-
 end
