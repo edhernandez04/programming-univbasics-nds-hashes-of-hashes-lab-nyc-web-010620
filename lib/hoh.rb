@@ -32,7 +32,7 @@
 
 
 def naming_system
-  HoH = {
+  hoh = {
     label: "Kingdom", sub_category: {
       label: "Phylum", sub_category: {
         label: "Class", sub_category: {
@@ -49,6 +49,7 @@ def naming_system
       }
     }
   }
+
   # Remember:
   #  Kingdom
   #  Phylum
