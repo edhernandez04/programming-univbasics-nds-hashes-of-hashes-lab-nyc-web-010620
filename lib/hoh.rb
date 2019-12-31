@@ -49,7 +49,6 @@ def naming_system
       }
     }
   }
-hash
   # Remember:
   #  Kingdom
   #  Phylum
